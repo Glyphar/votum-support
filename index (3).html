@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VOTUM – A Citizen Voting Protocol</title>
+  <link rel="icon" href="votum-logo.png" type="image/png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+      padding: 30px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-title {
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      height: 60px;
+      margin-right: 15px;
+    }
+    header h1 {
+      font-size: 2em;
+      color: #002147;
+      margin: 0;
+    }
+    .lang-switch {
+      font-size: 0.95em;
+    }
+    .lang-switch button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1em;
+      color: #002147;
+      margin-left: 10px;
+    }
+    .section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: #002147;
+    }
+    .cta {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .cta a {
+      background: #002147;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+    .cta a:hover {
+      background: #001530;
+    }
+    footer {
+      background: #f2f2f2;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #444;
+    }
+    .en, .fr, .es, .ar, .zh { display: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <img src="votum-logo.png" alt="VOTUM Logo">
+      <h1>VOTUM</h1>
+    </div>
+    <div class="lang-switch">
+      <span>Language:</span>
+      <button onclick="switchLang('en')">🇬🇧</button>
+      <button onclick="switchLang('fr')">🇫🇷</button>
+      <button onclick="switchLang('es')">🇪🇸</button>
+      <button onclick="switchLang('ar')">🇸🇦</button>
+      <button onclick="switchLang('zh')">🇨🇳</button>
+    </div>
+  </header>
+
+  <div class="en">
+    <section class="section">
+      <h2>Why this token?</h2>
+      <p>VOTUM is a sovereign, transparent, and verifiable digital voting protocol...</p>
+    </section>
+    <section class="section">
+      <h2>What you're supporting</h2>
+      <ul>
+        <li>The creation of an independent VOTUM legal entity (SASU)</li>
+        <li>The open-source development of the voting protocol</li>
+        <li>Transparency and traceability of decision-making systems</li>
+        <li>The emergence of global citizen governance</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>Important notice</h2>
+      <p>The $VOTUM token is not an official voting right...</p>
+    </section>
+    <div class="cta">
+      <a href="https://pump.fun" target="_blank">Get the $VOTUM token on pump.fun</a>
+    </div>
+  </div>
+
+  <div class="fr">
+    <section class="section">
+      <h2>Pourquoi ce jeton&nbsp;?</h2>
+      <p>VOTUM est un protocole de vote numérique souverain...</p>
+    </section>
+    <section class="section">
+      <h2>Ce que vous soutenez</h2>
+      <ul>
+        <li>La création d’une SASU VOTUM indépendante</li>
+        <li>Le développement open-source du protocole de vote</li>
+        <li>La transparence et la traçabilité des systèmes de décision</li>
+        <li>L’émergence d’une gouvernance citoyenne mondiale</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>À savoir</h2>
+      <p>Le jeton $VOTUM n’a pas valeur de vote officiel...</p>
+    </section>
+    <div class="cta">
+      <a href="https://pump.fun" target="_blank">Accéder au jeton $VOTUM sur pump.fun</a>
+    </div>
+  </div>
+
+  <div class="es">
+    <section class="section">
+      <h2>¿Por qué este token?</h2>
+      <p>VOTUM es un protocolo de votación digital soberano, transparente y verificable...</p>
+    </section>
+    <section class="section">
+      <h2>Lo que estás apoyando</h2>
+      <ul>
+        <li>La creación de una entidad legal independiente VOTUM (SASU)</li>
+        <li>El desarrollo open-source del protocolo de votación</li>
+        <li>La transparencia y trazabilidad en la toma de decisiones</li>
+        <li>El surgimiento de una gobernanza ciudadana global</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>Aviso importante</h2>
+      <p>El token $VOTUM no otorga derecho de voto oficial...</p>
+    </section>
+    <div class="cta">
+      <a href="https://pump.fun" target="_blank">Obtener el token $VOTUM en pump.fun</a>
+    </div>
+  </div>
+
+  <div class="ar" dir="rtl">
+    <section class="section">
+      <h2>لماذا هذا الرمز؟</h2>
+      <p>VOTUM هو بروتوكول تصويت رقمي يتمتع بالسيادة والشفافية وقابل للتحقق...</p>
+    </section>
+    <section class="section">
+      <h2>ما الذي تدعمه</h2>
+      <ul>
+        <li>إنشاء كيان قانوني مستقل لـ VOTUM (SASU)</li>
+        <li>تطوير البروتوكول كمصدر مفتوح</li>
+        <li>الشفافية وقابلية التتبع في أنظمة اتخاذ القرار</li>
+        <li>ظهور حوكمة مدنية عالمية</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>ملاحظة هامة</h2>
+      <p>رمز $VOTUM لا يمنح حق التصويت الرسمي...</p>
+    </section>
+    <div class="cta">
+      <a href="https://pump.fun" target="_blank">الحصول على رمز $VOTUM من pump.fun</a>
+    </div>
+  </div>
+
+  <div class="zh">
+    <section class="section">
+      <h2>为什么选择这个代币？</h2>
+      <p>VOTUM 是一个主权、透明且可验证的数字投票协议...</p>
+    </section>
+    <section class="section">
+      <h2>您的支持意义何在</h2>
+      <ul>
+        <li>创建独立的 VOTUM 法人实体（SASU）</li>
+        <li>开发开源投票协议</li>
+        <li>决策系统的透明性与可追踪性</li>
+        <li>全球公民治理的兴起</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2>重要声明</h2>
+      <p>$VOTUM 代币不代表官方投票权...</p>
+    </section>
+    <div class="cta">
+      <a href="https://pump.fun" target="_blank">在 pump.fun 获取 $VOTUM 代币</a>
+    </div>
+  </div>
+
+  <footer>
+    VOTUM Project – The sovereign protocol for digital voting<br />
+    📍 A citizen-led initiative born in France<br />
+    votum.contact@proton.me
+  </footer>
+
+  <script>
+    function switchLang(lang) {
+      ['en', 'fr', 'es', 'ar', 'zh'].forEach(code => {
+        document.querySelector('.' + code).style.display = (lang === code) ? 'block' : 'none';
+      });
+    }
+    switchLang('en'); // default
+  </script>
+</body>
+</html>
