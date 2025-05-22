@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VOTUM – Le protocole citoyen souverain</title>
+  <link rel="icon" href="votum-logo.png" type="image/png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+    }
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+      padding: 30px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-title {
+      display: flex;
+      align-items: center;
+    }
+    header img {
+      height: 60px;
+      margin-right: 15px;
+    }
+    header h1 {
+      font-size: 2em;
+      color: #002147;
+      margin: 0;
+    }
+    footer {
+      background: #f2f2f2;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #444;
+    }
+    .lang-switch {
+      font-size: 0.95em;
+    }
+    .lang-switch button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1em;
+      color: #002147;
+      margin-left: 10px;
+    }
+    .poster-container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .poster-container img {
+      max-width: 95%;
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <img src="votum-logo.png" alt="VOTUM Logo">
+      <h1>VOTUM</h1>
+    </div>
+    <div class="lang-switch">
+      <span>Langue :</span>
+      <button onclick="switchLang('fr')">🇫🇷</button>
+      <button onclick="switchLang('en')">🇬🇧</button>
+    </div>
+  </header>
+
+  <!-- Affichage direct de l'affiche -->
+  <section class="poster-container">
+    <img src="votum-poster.png" alt="Présentation VOTUM">
+  </section>
+
+  <footer>
+    VOTUM – Le protocole souverain du vote numérique<br />
+    📍 Porté par les citoyens • Né en France<br />
+    ✉️ votum.contact@proton.me
+  </footer>
+
+  <script>
+    function switchLang(lang) {
+      alert("La version multilingue arrive très bientôt !");
+    }
+  </script>
+</body>
+</html>
