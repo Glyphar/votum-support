@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VOTUM – Sovereign Voting Protocol</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+            color: #1a1a1a;
+        }
+        header, footer {
+            background: #ffffff;
+            padding: 1em 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            background: #ffffff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #0a2940;
+        }
+        footer {
+            font-size: 0.9em;
+            text-align: center;
+            flex-direction: column;
+            gap: 0.2em;
+        }
+        ul {
+            padding-left: 1.2em;
+        }
+        .lang-switch {
+            font-size: 0.9em;
+        }
+        .lang-switch a {
+            margin-left: 10px;
+            color: #0a2940;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <div><strong>VOTUM</strong></div>
+        <div class="lang-switch">
+            Langue : <a href="#" onclick="switchLang('fr')">FR</a> | <a href="#" onclick="switchLang('en')">EN</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container" id="en">
+            <h1>VOTUM – The Sovereign Digital Voting Protocol</h1>
+            <p>📍 Born in France – Designed for the world</p>
+
+            <h2>Why this token?</h2>
+            <p>VOTUM is a sovereign, transparent and verifiable digital voting protocol. To ensure its independence, we must establish a compliant legal framework, conduct audits and launch pilot programs. The $VOTUM token is a civic initiative to support this construction worldwide.</p>
+
+            <h2>What your support enables</h2>
+            <ul>
+                <li>Creating a legal structure to support VOTUM</li>
+                <li>Open-source development of the protocol</li>
+                <li>Transparency and traceability in decision systems</li>
+                <li>Emergence of citizen-led global governance models</li>
+            </ul>
+
+            <h2>Important note</h2>
+            <p>The $VOTUM token is <strong>not</strong> an official voting right. It does not replace the $VOTE token used in the protocol. It symbolizes civic and economic support. No promise of return or power is implied.</p>
+        </div>
+
+        <div class="container hidden" id="fr">
+            <h1>VOTUM – Le protocole de vote numérique souverain</h1>
+            <p>📍 Né en France – Conçu pour le monde</p>
+
+            <h2>Pourquoi ce jeton ?</h2>
+            <p>VOTUM est un protocole de vote numérique souverain, transparent et vérifiable. Pour garantir une indépendance totale, nous devons créer un cadre juridique conforme à la régulation française et européenne, réaliser des audits et lancer les premiers tests. Le jeton $VOTUM est une initiative citoyenne destinée à soutenir cette construction à l’échelle mondiale.</p>
+
+            <h2>Ce que votre soutien permet</h2>
+            <ul>
+                <li>Créer une structure juridique indépendante pour VOTUM</li>
+                <li>Développer le protocole en open source</li>
+                <li>Assurer la transparence et la traçabilité des décisions</li>
+                <li>Faire émerger une gouvernance mondiale portée par les citoyens</li>
+            </ul>
+
+            <h2>Avis important</h2>
+            <p>Le jeton $VOTUM <strong>n’est pas</strong> un droit de vote officiel. Il ne remplace pas le jeton $VOTE utilisé dans le protocole. Il incarne un soutien civique et économique. Aucune promesse de rendement ou de pouvoir n’est faite.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div>VOTUM – Le protocole souverain de vote numérique</div>
+        <div>📍 Propulsé par les citoyens • Né en France, construit pour le monde</div>
+        <div>📧 votum.contact@proton.me</div>
+    </footer>
+
+    <script>
+        function switchLang(lang) {
+            document.getElementById('en').classList.add('hidden');
+            document.getElementById('fr').classList.add('hidden');
+            document.getElementById(lang).classList.remove('hidden');
+        }
+        switchLang('en');
+    </script>
+</body>
+</html>
